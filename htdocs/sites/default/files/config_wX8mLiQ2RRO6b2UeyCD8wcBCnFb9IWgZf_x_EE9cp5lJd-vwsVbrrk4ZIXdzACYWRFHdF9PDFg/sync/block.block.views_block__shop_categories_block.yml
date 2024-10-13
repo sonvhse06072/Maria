@@ -1,0 +1,30 @@
+uuid: acddd933-ea2d-436e-9d38-17103ee44f00
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.shop_categories
+  module:
+    - system
+    - views
+  theme:
+    - rhythm_sub
+id: views_block__shop_categories_block
+theme: rhythm_sub
+region: sidebar
+weight: -26
+provider: null
+plugin: 'views_block:shop_categories-block'
+settings:
+  id: 'views_block:shop_categories-block'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '/shop*'

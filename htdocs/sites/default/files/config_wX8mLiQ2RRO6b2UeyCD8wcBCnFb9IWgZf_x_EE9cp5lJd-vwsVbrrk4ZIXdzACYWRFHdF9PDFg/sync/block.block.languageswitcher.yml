@@ -1,0 +1,20 @@
+uuid: 08ce090a-33bf-458e-b268-2c02e5da0206
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - rhythm
+id: languageswitcher
+theme: rhythm
+region: header
+weight: -8
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

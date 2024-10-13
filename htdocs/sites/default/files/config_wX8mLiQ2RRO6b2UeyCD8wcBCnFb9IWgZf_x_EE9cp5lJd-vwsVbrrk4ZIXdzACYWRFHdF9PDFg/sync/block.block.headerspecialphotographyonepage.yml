@@ -1,0 +1,31 @@
+uuid: 16165ac4-8ba9-40bc-8119-125e88c27e3d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d5849bbf-634c-46be-8079-41e31edc2f28'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headerspecialphotographyonepage
+theme: rhythm
+region: header
+weight: 5
+provider: null
+plugin: 'block_content:d5849bbf-634c-46be-8079-41e31edc2f28'
+settings:
+  id: 'block_content:d5849bbf-634c-46be-8079-41e31edc2f28'
+  label: 'Header: Special Photography - OnePage'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /node/103

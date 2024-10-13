@@ -1,0 +1,22 @@
+uuid: 5fc3549f-2a88-4fc4-8af8-84f016757768
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - rhythm
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: rhythm_help
+theme: rhythm
+region: content
+weight: -12
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

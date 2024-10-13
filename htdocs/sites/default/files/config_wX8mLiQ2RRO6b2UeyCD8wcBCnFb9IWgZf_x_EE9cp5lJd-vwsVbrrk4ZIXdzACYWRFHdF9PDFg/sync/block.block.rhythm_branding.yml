@@ -1,0 +1,25 @@
+uuid: 413644a4-9b49-42af-b103-9bbbbffba796
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - rhythm
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: rhythm_branding
+theme: rhythm
+region: header
+weight: -2
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

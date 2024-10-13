@@ -1,0 +1,29 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: ''
+favicon:
+  use_default: 1
+retina: 0
+loader_image: 1
+phone: ' 0307-567-890'
+404_bg: {  }
+maintenance_bg: {  }
+gmap_key: ''
+nikadevs_cms_layout:
+  layout-default:
+    name: Default
+    pages: ''
+    rows:
+      id-0:
+        name: Hidden
+        attributes:
+          id: id-0
+          class:
+            - row
+            - sortable-parent
+            - sortable

@@ -1,0 +1,20 @@
+uuid: defb8319-ed5a-4bf3-978f-c7b93a44ee0b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - rhythm
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: rhythm_page_title
+theme: rhythm
+region: header
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

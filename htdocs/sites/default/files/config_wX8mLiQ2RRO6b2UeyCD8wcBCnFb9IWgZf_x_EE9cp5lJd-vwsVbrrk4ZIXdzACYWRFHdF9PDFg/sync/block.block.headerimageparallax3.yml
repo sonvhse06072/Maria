@@ -1,0 +1,31 @@
+uuid: 5015f346-52bf-4f74-84c6-17a4e3d5b670
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cbea5a9b-6fdb-4634-81b2-a6813f136a28'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headerimageparallax3
+theme: rhythm
+region: header
+weight: -11
+provider: null
+plugin: 'block_content:cbea5a9b-6fdb-4634-81b2-a6813f136a28'
+settings:
+  id: 'block_content:cbea5a9b-6fdb-4634-81b2-a6813f136a28'
+  label: 'Header: Image Parallax 3'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /home/3

@@ -1,0 +1,22 @@
+uuid: bbd8565f-9370-43d1-88c4-6d65fd6cb1b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rhythm_sub
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: rhythm_sub_content
+theme: rhythm_sub
+region: content
+weight: -28
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

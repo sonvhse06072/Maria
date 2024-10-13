@@ -1,0 +1,13 @@
+diff --git a/core/misc/vertical-tabs.js b/core/misc/vertical-tabs.js
+index 85f200f5f8..55de306af0 100644
+--- a/core/misc/vertical-tabs.js
++++ b/core/misc/vertical-tabs.js
+@@ -181,7 +181,7 @@
+         })
+         .end()
+         .show()
+-        .siblings(':hidden.vertical-tabs__active-tab')[0].value =
++        .siblings(':hidden.vertical-tabs__active-tab').value =
+         this.details.attr('id');
+       this.details.attr('open', true);
+       this.item.addClass('is-selected');

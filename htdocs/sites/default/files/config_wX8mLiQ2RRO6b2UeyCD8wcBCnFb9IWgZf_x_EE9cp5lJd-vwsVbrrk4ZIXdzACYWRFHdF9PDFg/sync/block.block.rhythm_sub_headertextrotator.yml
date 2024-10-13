@@ -1,0 +1,31 @@
+uuid: d76941cf-3169-45fa-bf31-74910cf5bf76
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:02bde269-1d46-4ba4-aa78-811bb904f0cc'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm_sub
+id: rhythm_sub_headertextrotator
+theme: rhythm_sub
+region: header
+weight: 6
+provider: null
+plugin: 'block_content:02bde269-1d46-4ba4-aa78-811bb904f0cc'
+settings:
+  id: 'block_content:02bde269-1d46-4ba4-aa78-811bb904f0cc'
+  label: 'Header: Text Rotator'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /home/7

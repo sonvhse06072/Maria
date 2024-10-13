@@ -1,0 +1,30 @@
+uuid: 666f95cf-9db9-4f53-a414-27d1a2caaf5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products_best_sellers
+  module:
+    - system
+    - views
+  theme:
+    - rhythm_sub
+id: views_block__products_best_sellers_block
+theme: rhythm_sub
+region: sidebar
+weight: -25
+provider: null
+plugin: 'views_block:products_best_sellers-block'
+settings:
+  id: 'views_block:products_best_sellers-block'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '/shop*'

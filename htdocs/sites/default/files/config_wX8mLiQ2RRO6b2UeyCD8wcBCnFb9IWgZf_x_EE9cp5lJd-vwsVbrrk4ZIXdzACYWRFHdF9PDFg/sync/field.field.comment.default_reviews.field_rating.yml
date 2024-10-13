@@ -1,0 +1,30 @@
+uuid: 574ef56c-fdbf-4cf3-85a1-1917d7fa0034
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.default_reviews
+    - field.storage.comment.field_rating
+  module:
+    - fivestar
+id: comment.default_reviews.field_rating
+field_name: field_rating
+entity_type: comment
+bundle: default_reviews
+label: Rating
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    rating: 100
+    target: null
+default_value_callback: ''
+settings:
+  stars: 5
+  allow_clear: false
+  allow_revote: false
+  allow_ownvote: true
+  rated_while: viewing
+  target: ''
+field_type: fivestar

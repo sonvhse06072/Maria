@@ -1,0 +1,13 @@
+diff --git a/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php b/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php
+index 2abda1bdbe..9585d12778 100644
+--- a/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php
++++ b/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php
+@@ -194,7 +194,7 @@ protected function load() {
+ 
+     // Invalidate the image object and return if the load fails.
+     try {
+-      $resource = $function($this->getSource());
++      $resource = @$function($this->getSource());
+     }
+     catch (\Throwable $t) {
+       $this->logger->error("The image toolkit '@toolkit' failed loading image '@image'. Reported error: @class - @message", [

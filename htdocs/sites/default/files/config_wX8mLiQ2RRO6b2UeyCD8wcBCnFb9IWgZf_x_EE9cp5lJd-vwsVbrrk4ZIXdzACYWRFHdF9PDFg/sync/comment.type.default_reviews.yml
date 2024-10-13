@@ -1,0 +1,8 @@
+uuid: 41e10ade-3f2d-4682-9fd4-0da40f591d64
+langcode: en
+status: true
+dependencies: {  }
+id: default_reviews
+label: 'Default reviews'
+target_entity_type_id: commerce_product
+description: 'Allows commenting on products'

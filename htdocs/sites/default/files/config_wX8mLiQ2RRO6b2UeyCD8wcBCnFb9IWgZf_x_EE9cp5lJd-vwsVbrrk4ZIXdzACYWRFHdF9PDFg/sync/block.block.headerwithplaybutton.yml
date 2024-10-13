@@ -1,0 +1,31 @@
+uuid: c6d4f79a-bda9-4be9-9c53-4d4bf756880e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3e57c7df-fc44-497a-b5d3-101a4180545b'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headerwithplaybutton
+theme: rhythm
+region: header
+weight: 8
+provider: null
+plugin: 'block_content:3e57c7df-fc44-497a-b5d3-101a4180545b'
+settings:
+  id: 'block_content:3e57c7df-fc44-497a-b5d3-101a4180545b'
+  label: 'Header: With Play Button'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /home/12

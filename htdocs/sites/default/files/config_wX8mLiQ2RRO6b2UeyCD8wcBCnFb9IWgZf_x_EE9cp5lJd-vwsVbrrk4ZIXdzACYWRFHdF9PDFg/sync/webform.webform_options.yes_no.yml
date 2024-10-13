@@ -1,0 +1,14 @@
+uuid: 2597eb3c-d1b3-40ea-b4db-09a8c141c1bd
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: KAEJv6Gks8rU-P0XcmUfjRuk-92T32qbkBCn1LQgKr8
+id: yes_no
+label: Yes/No
+options: |
+  Yes: Yes
+  No: No

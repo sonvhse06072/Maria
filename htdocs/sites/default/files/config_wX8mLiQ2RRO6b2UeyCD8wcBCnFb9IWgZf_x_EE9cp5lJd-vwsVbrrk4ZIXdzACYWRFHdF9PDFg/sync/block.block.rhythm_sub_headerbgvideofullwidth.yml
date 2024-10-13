@@ -1,0 +1,31 @@
+uuid: eebd65e3-6d0c-4c1d-b3d3-e7d6d4e4a531
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:71affffc-cffa-4790-93df-5f7d6790619a'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm_sub
+id: rhythm_sub_headerbgvideofullwidth
+theme: rhythm_sub
+region: header
+weight: -18
+provider: null
+plugin: 'block_content:71affffc-cffa-4790-93df-5f7d6790619a'
+settings:
+  id: 'block_content:71affffc-cffa-4790-93df-5f7d6790619a'
+  label: 'Header: BG Video Fullwidth'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /home/13

@@ -1,0 +1,31 @@
+uuid: 3b82cdf8-8b5b-4b30-b17c-4080f7badb49
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:52a10536-56b5-4eb7-8df9-33230c18ba31'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm_sub
+id: rhythm_sub_headerwhite
+theme: rhythm_sub
+region: header
+weight: -25
+provider: null
+plugin: 'block_content:52a10536-56b5-4eb7-8df9-33230c18ba31'
+settings:
+  id: 'block_content:52a10536-56b5-4eb7-8df9-33230c18ba31'
+  label: 'Header White'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /node/54

@@ -1,0 +1,22 @@
+uuid: d18cd2a1-355c-4d4a-94a7-76d7fb01b31a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - webform
+_core:
+  default_config_hash: 8IMrzn49aZMWfnGDoHdXqYfSi8NLmLq9gdblAAL1EZc
+id: node.webform
+field_name: webform
+entity_type: node
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

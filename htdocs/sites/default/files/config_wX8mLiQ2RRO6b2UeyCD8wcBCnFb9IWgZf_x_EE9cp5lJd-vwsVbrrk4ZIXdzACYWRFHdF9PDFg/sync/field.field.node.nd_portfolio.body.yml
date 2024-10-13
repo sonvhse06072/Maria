@@ -1,0 +1,23 @@
+uuid: a6394352-26bf-476a-ac43-69f3c093a275
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.nd_portfolio
+  module:
+    - text
+id: node.nd_portfolio.body
+field_name: body
+entity_type: node
+bundle: nd_portfolio
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

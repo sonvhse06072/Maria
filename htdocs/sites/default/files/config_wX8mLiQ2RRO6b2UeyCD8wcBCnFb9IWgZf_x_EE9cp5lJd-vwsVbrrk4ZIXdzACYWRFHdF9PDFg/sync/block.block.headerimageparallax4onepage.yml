@@ -1,0 +1,31 @@
+uuid: afd12111-5e64-4ed1-a8f0-caa4592ff02c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7c4c579e-1361-49a3-a6d3-4f5f9529d16d'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headerimageparallax4onepage
+theme: rhythm
+region: header
+weight: -8
+provider: null
+plugin: 'block_content:7c4c579e-1361-49a3-a6d3-4f5f9529d16d'
+settings:
+  id: 'block_content:7c4c579e-1361-49a3-a6d3-4f5f9529d16d'
+  label: 'Header: Image Parallax 4 - OnePage'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /onepage/4

@@ -1,0 +1,39 @@
+uuid: 4ae6a983-0864-4215-aad3-544647c26b53
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.default_reviews
+    - field.field.comment.default_reviews.field_comment
+    - field.field.comment.default_reviews.field_email
+    - field.field.comment.default_reviews.field_rating
+  module:
+    - fivestar
+id: comment.default_reviews.default
+targetEntityType: comment
+bundle: default_reviews
+mode: default
+content:
+  field_comment:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_rating:
+    type: fivestar_stars
+    label: hidden
+    settings:
+      fivestar_widget: modules/contrib/fivestar/widgets/outline/outline.css
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_email: true
+  langcode: true

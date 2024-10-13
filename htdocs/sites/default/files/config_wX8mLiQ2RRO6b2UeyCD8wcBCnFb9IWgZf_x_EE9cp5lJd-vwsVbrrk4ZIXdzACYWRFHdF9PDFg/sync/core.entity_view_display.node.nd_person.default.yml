@@ -1,0 +1,57 @@
+uuid: 9849d905-2cf2-489a-8b94-322051c86e48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.nd_person.body
+    - field.field.node.nd_person.field_image
+    - field.field.node.nd_person.field_position
+    - field.field.node.nd_person.field_social_links
+    - image.style.person_360x438_
+    - node.type.nd_person
+  module:
+    - image
+    - rhythm_cms
+    - text
+    - user
+id: node.nd_person.default
+targetEntityType: node
+bundle: nd_person
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: person_360x438_
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_position:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_social_links:
+    type: rhythm_cms_social_link
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  links: true

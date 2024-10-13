@@ -1,0 +1,70 @@
+uuid: a36579e2-f92c-453d-8053-3264bc0be1df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.nd_blog.body
+    - field.field.node.nd_blog.field_blog_category
+    - field.field.node.nd_blog.field_comments
+    - field.field.node.nd_blog.field_images
+    - field.field.node.nd_blog.field_lead_text
+    - field.field.node.nd_blog.field_second_title
+    - field.field.node.nd_blog.field_tags
+    - image.style.blog_1140x642_
+    - node.type.nd_blog
+  module:
+    - comment
+    - rhythm_cms
+    - text
+    - user
+id: node.nd_blog.default
+targetEntityType: node
+bundle: nd_blog
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_comments:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_images:
+    type: rhythm_cms_images_slider
+    label: hidden
+    settings:
+      image_style: blog_1140x642_
+      image_link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_lead_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_second_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_blog_category: true
+  field_tags: true
+  langcode: true
+  links: true

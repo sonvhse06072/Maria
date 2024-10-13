@@ -1,0 +1,30 @@
+uuid: f52ee1b9-2c69-45e6-b70a-a8a898a42a15
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products_tags
+  module:
+    - system
+    - views
+  theme:
+    - rhythm_sub
+id: views_block__products_tags_block
+theme: rhythm_sub
+region: sidebar
+weight: -24
+provider: null
+plugin: 'views_block:products_tags-block'
+settings:
+  id: 'views_block:products_tags-block'
+  label: Tags
+  label_display: visible
+  provider: views
+  views_label: Tags
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/shop*\r\n/blog-item/new-web-design-trends-2015-year\r\n/blog-item/minimalistic-design-forever\r\n/blog-sidebar-left\r\n/blog-sidebar-right\r\n/blog-2-columns\r\n/blog-masonry-2-columns"

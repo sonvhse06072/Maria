@@ -1,0 +1,19 @@
+uuid: b2ef3702-a984-4c6b-aa3c-cadb24aa651f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.default_reviews
+    - field.storage.comment.field_email
+id: comment.default_reviews.field_email
+field_name: field_email
+entity_type: comment
+bundle: default_reviews
+label: Email
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

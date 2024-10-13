@@ -1,0 +1,29 @@
+uuid: c44389fe-2f06-478e-8e40-5aa93eecc3a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rhythm_cms
+  theme:
+    - rhythm
+id: rhythmprojectnextprev
+theme: rhythm
+region: content_full
+weight: -14
+provider: null
+plugin: nd_rhythm_prev_next
+settings:
+  id: nd_rhythm_prev_next
+  label: 'Rhythm: Project Next Prev'
+  label_display: '0'
+  provider: rhythm_cms
+  all_works_link: portfolio-boxed
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      nd_portfolio: nd_portfolio

@@ -1,0 +1,31 @@
+uuid: 3d06a0ef-8bfb-49f1-b3be-cf27f16a5131
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:24110089-987a-4a14-a6ed-89553666f7df'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headersliderbackgroundonepage
+theme: rhythm
+region: header
+weight: -3
+provider: null
+plugin: 'block_content:24110089-987a-4a14-a6ed-89553666f7df'
+settings:
+  id: 'block_content:24110089-987a-4a14-a6ed-89553666f7df'
+  label: 'Header: Slider Background - OnePage'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /onepage/11

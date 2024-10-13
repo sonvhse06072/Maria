@@ -1,0 +1,31 @@
+uuid: 444a7c72-7e14-466d-b7e4-2f50c08c1fdf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:105211ef-6551-4e9c-816c-39c118e2b0f2'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headerbgvideofullwidthonepage
+theme: rhythm
+region: header
+weight: -17
+provider: null
+plugin: 'block_content:105211ef-6551-4e9c-816c-39c118e2b0f2'
+settings:
+  id: 'block_content:105211ef-6551-4e9c-816c-39c118e2b0f2'
+  label: 'Header: BG Video Fullwidth - OnePage'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /onepage/13

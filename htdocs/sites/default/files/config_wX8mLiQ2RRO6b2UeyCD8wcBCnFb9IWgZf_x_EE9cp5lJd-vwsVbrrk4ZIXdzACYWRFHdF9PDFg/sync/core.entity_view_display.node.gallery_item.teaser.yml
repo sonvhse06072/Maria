@@ -1,0 +1,25 @@
+uuid: d3bd3693-c333-4715-9063-f39a5f23a6c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gallery_item.field_gallery
+    - field.field.node.gallery_item.field_image
+    - node.type.gallery_item
+  module:
+    - user
+id: node.gallery_item.teaser
+targetEntityType: node
+bundle: gallery_item
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_gallery: true
+  field_image: true
+  langcode: true

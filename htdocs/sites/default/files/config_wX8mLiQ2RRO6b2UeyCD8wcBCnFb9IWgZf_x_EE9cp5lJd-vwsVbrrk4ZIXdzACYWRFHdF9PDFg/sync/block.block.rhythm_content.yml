@@ -1,0 +1,22 @@
+uuid: d8eb0a5d-9e41-4217-a02a-c3b0a02f3d53
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rhythm
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: rhythm_content
+theme: rhythm
+region: content
+weight: -8
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 5b58453b-723c-4896-aa31-f0f9c7c9ae6b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:21382078-dc04-4156-8562-c6bb4e02f0e1'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headersliderfullscreenonepage
+theme: rhythm
+region: header
+weight: -1
+provider: null
+plugin: 'block_content:21382078-dc04-4156-8562-c6bb4e02f0e1'
+settings:
+  id: 'block_content:21382078-dc04-4156-8562-c6bb4e02f0e1'
+  label: 'Header: Slider Fullscreen - OnePage'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /onepage/8

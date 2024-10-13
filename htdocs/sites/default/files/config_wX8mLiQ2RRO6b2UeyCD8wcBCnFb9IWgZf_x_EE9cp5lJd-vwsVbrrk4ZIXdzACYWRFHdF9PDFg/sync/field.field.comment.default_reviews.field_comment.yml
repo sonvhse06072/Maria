@@ -1,0 +1,19 @@
+uuid: fad04b88-9378-485b-b79d-c3a8ea284f40
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.default_reviews
+    - field.storage.comment.field_comment
+id: comment.default_reviews.field_comment
+field_name: field_comment
+entity_type: comment
+bundle: default_reviews
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

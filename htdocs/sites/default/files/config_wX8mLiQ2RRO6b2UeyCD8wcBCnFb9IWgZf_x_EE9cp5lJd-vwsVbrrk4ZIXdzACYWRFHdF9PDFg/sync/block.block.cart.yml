@@ -1,0 +1,27 @@
+uuid: 94c1ff38-4027-4007-b8f9-96e6504c0f0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - system
+  theme:
+    - rhythm_sub
+id: cart
+theme: rhythm_sub
+region: sidebar
+weight: -28
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping cart'
+  label_display: visible
+  provider: commerce_cart
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '/shop*'

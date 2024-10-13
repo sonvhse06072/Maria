@@ -1,0 +1,31 @@
+uuid: f35186e0-4d27-414f-8273-55ef0c061c4e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ca4e996c-222b-4e10-b248-09930f18481b'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: footer
+theme: rhythm
+region: footer
+weight: -11
+provider: null
+plugin: 'block_content:ca4e996c-222b-4e10-b248-09930f18481b'
+settings:
+  id: 'block_content:ca4e996c-222b-4e10-b248-09930f18481b'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: 'gallery-images*'

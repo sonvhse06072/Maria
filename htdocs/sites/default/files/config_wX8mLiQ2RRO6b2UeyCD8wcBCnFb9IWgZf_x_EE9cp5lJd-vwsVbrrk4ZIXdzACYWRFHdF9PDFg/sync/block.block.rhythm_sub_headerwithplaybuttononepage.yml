@@ -1,0 +1,31 @@
+uuid: 4d6c4b5e-01c7-4500-8fbe-2000435e7c99
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8379ba0a-99cf-4d6c-92bc-b0713eabb68a'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm_sub
+id: rhythm_sub_headerwithplaybuttononepage
+theme: rhythm_sub
+region: header
+weight: 9
+provider: null
+plugin: 'block_content:8379ba0a-99cf-4d6c-92bc-b0713eabb68a'
+settings:
+  id: 'block_content:8379ba0a-99cf-4d6c-92bc-b0713eabb68a'
+  label: 'Header: With Play Button - OnePage'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /onepage/12

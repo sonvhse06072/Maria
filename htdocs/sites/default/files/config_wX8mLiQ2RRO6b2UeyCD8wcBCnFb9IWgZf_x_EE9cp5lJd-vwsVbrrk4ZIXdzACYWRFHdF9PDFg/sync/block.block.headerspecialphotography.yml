@@ -1,0 +1,31 @@
+uuid: 20c7bc21-2204-4d89-84a8-c8cbb3030466
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4e4c5a44-2bf9-4b6a-9fc7-c4c77854c4f2'
+  module:
+    - block_content
+    - system
+  theme:
+    - rhythm
+id: headerspecialphotography
+theme: rhythm
+region: header
+weight: 4
+provider: null
+plugin: 'block_content:4e4c5a44-2bf9-4b6a-9fc7-c4c77854c4f2'
+settings:
+  id: 'block_content:4e4c5a44-2bf9-4b6a-9fc7-c4c77854c4f2'
+  label: 'Header: Special Photography'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /node/101

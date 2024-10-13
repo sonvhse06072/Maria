@@ -1,0 +1,26 @@
+uuid: 4824094a-4c9f-496c-813e-728a6f25384d
+langcode: en
+status: true
+dependencies:
+  module:
+    - rhythm_cms
+    - system
+  theme:
+    - rhythm_sub
+id: rhythmproductsfilter
+theme: rhythm_sub
+region: sidebar
+weight: -27
+provider: null
+plugin: nd_rhythm_products_filter
+settings:
+  id: nd_rhythm_products_filter
+  label: 'Filter by Price'
+  label_display: visible
+  provider: rhythm_cms
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '/shop*'

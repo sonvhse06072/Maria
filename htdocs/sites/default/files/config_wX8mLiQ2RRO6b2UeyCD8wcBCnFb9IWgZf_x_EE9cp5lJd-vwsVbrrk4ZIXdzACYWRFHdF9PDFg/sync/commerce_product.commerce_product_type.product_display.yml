@@ -1,0 +1,10 @@
+uuid: bba72e99-15a4-426d-9915-4d717dae6655
+langcode: en
+status: true
+dependencies: {  }
+id: product_display
+label: 'Product Display'
+traits: {  }
+description: ''
+variationType: product
+injectVariationFields: true

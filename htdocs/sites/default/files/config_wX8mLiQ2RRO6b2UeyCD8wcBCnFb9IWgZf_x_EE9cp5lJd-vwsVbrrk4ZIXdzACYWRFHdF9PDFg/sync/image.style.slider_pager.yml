@@ -1,0 +1,15 @@
+uuid: b4ab63bf-34cc-4e06-a581-aa4b17e0cbd1
+langcode: en
+status: true
+dependencies: {  }
+name: slider_pager
+label: 'Slider Pager'
+effects:
+  8cfdcd73-cdee-4bb5-96f2-c0dd1ddaf0e0:
+    uuid: 8cfdcd73-cdee-4bb5-96f2-c0dd1ddaf0e0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 90
+      height: 60
+      anchor: center-center

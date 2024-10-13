@@ -1,0 +1,22 @@
+uuid: 6131a539-a140-4fb3-a55b-b27a52836cec
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - rhythm
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: rhythm_powered
+theme: rhythm
+region: header
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

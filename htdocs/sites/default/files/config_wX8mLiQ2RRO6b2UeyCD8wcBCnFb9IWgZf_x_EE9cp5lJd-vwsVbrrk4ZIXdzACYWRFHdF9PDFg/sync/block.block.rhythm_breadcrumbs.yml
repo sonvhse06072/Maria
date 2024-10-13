@@ -1,0 +1,22 @@
+uuid: bd3eec29-b089-4550-ac3c-88e1e8bfeba6
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - rhythm
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: rhythm_breadcrumbs
+theme: rhythm
+region: header
+weight: -11
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

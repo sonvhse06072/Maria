@@ -1,0 +1,9 @@
+uuid: 6b885057-0f85-4197-acd9-fc8729de2c4d
+langcode: en
+status: true
+dependencies: {  }
+id: product
+label: Product
+traits: {  }
+orderItemType: default
+generateTitle: true

@@ -1,0 +1,20 @@
+uuid: c87719bc-efdf-4b10-a202-ca4973277bc9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rhythm_sub
+id: tabs
+theme: rhythm_sub
+region: content
+weight: -29
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

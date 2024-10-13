@@ -1,0 +1,32 @@
+uuid: fc994139-80de-4266-9c3c-cdf5766d5eae
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.related_projects
+  module:
+    - node
+    - views
+  theme:
+    - rhythm
+id: views_block__related_projects_block_1
+theme: rhythm
+region: header
+weight: -4
+provider: null
+plugin: 'views_block:related_projects-block_1'
+settings:
+  id: 'views_block:related_projects-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      nd_portfolio: nd_portfolio

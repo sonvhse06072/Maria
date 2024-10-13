@@ -1,0 +1,33 @@
+uuid: edd9a1f2-11af-45ae-b666-dbec178652e2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7bf565ba-d4c0-4dbb-88d7-3a62af679d29'
+  module:
+    - block_content
+    - node
+  theme:
+    - rhythm
+id: relatedprojects
+theme: rhythm
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:7bf565ba-d4c0-4dbb-88d7-3a62af679d29'
+settings:
+  id: 'block_content:7bf565ba-d4c0-4dbb-88d7-3a62af679d29'
+  label: 'Related Projects'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      nd_portfolio: nd_portfolio

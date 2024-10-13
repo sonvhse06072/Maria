@@ -1,0 +1,51 @@
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  standard__front_page:
+    enabled: false
+    menu_name: main
+    parent: ''
+    expanded: false
+    weight: -50
+  'admin_toolbar_tools__extra_links:node__add__page':
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    weight: 1
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__nd_blog':
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    weight: 2
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__gallery_item':
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    weight: 3
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__nd_person':
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    weight: 5
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__nd_portfolio':
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    weight: 6
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__webform':
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    weight: 7
+    expanded: false
+    enabled: true
