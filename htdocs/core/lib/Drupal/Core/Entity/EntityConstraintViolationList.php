@@ -160,7 +160,7 @@ class EntityConstraintViolationList extends ConstraintViolationList implements E
   /**
    * {@inheritdoc}
    */
-  public function filterByFieldAccess(AccountInterface $account = NULL) {
+  public function filterByFieldAccess(?AccountInterface $account = NULL) {
     $filtered_fields = [];
     foreach ($this->getFieldNames() as $field_name) {
       if (!$this->entity->get($field_name)->access('edit', $account)) {
@@ -168,6 +168,20 @@ class EntityConstraintViolationList extends ConstraintViolationList implements E
       }
     }
     return $this->filterByFields($filtered_fields);
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function findByCodes(string|array $codes): static {
+    $violations = [];
+    foreach ($this as $violation) {
+      if (in_array($violation->getCode(), $codes, TRUE)) {
+        $violations[] = $violation;
+      }
+    }
+
+    return new static($this->getEntity(), $violations);
   }
 
   /**

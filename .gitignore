@@ -1,3 +1,5 @@
 vendor/
 data/
 .idea/
+htdocs/sites/default/settings.php
+1410.sql
