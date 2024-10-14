@@ -196,7 +196,7 @@
         })
         .end()
         .show()
-        .siblings(':hidden.vertical-tabs__active-tab')[0].value =
+        .siblings(':hidden.vertical-tabs__active-tab').value =
         this.details.attr('id');
       this.details.attr('open', true);
       this.item.addClass('is-selected');

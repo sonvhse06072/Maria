@@ -12,7 +12,7 @@ dependencies:
 configure: file_entity.settings
 php: 8.0
 
-# Information added by Drupal.org packaging script on 2023-11-16
-version: '8.x-2.0-rc4'
+# Information added by Drupal.org packaging script on 2024-07-15
+version: '8.x-2.0'
 project: 'file_entity'
-datestamp: 1700152578
+datestamp: 1721080175

@@ -21,7 +21,7 @@ class FileEntityPathautoTest extends FileEntityTestBase {
    *
    * @var array
    */
-  public static $modules = array('pathauto');
+  protected static $modules = ['pathauto'];
 
   /**
    * Tests Pathauto support.

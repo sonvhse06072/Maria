@@ -513,3 +513,13 @@ function file_entity_preprocess_image_formatter(&$variables) {
     }
   }
 }
+
+/**
+ * Implements hook_entity_bundle_info().
+ */
+function file_entity_entity_bundle_info() {
+  // Define the undefined bundle for validation to work when the type is not
+  // yet known.
+  $bundles['file']['undefined']['label'] = t('Unknown');
+  return $bundles;
+}
