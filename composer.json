@@ -61,6 +61,7 @@
         "drupal/views_flipped_table": "^2.0",
         "drupal/votingapi": "~3.0",
         "drupal/webform": "^6.2@beta",
+        "drupal/youtube": "^2.0",
         "drush/drush": "^12.5"
     },
     "require-dev": {

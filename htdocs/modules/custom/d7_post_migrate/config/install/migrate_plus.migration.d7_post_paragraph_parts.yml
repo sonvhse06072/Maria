@@ -17,23 +17,16 @@ source:
   field_name: field_parts
 process:
   # varies
-  field_paragraph_text_1:
+  field_caption:
     plugin: sub_process
-    source: field_paragraph_text_1
+    source: field_caption
     process:
       value: value
     revision_id: revision_id
   # varies
-  field_paragraph_text_2:
+  field_image:
     plugin: sub_process
-    source: field_paragraph_text_2
-    process:
-      value: value
-    revision_id: revision_id
-  # varies
-  field_paragraph_image:
-    plugin: sub_process
-    source: field_paragraph_image
+    source: field_image
     process:
       target_id: fid
       alt: alt
@@ -41,18 +34,61 @@ process:
       width: width
       height: height
     revision_id: revision_id
+  # varies
+  field_file:
+    plugin: sub_process
+    source: field_file
+    process:
+      target_id: fid
+      alt: alt
+      title: title
+      width: width
+      height: height
+    revision_id: revision_id
+  field_images:
+    plugin: sub_process
+    source: field_images
+    process:
+      target_id: fid
+      alt: alt
+      title: title
+      width: width
+      height: height
+    revision_id: revision_id
+  field_text_content:
+    plugin: sub_process
+    source: field_text_content
+    process:
+      value: value
+    revision_id: revision_id
+  field_image_alignment:
+    plugin: sub_process
+    source: field_image_alignment
+    process:
+      value: value
+    revision_id: revision_id
+  field_youtube_video_url:
+    plugin: sub_process
+    source: field_youtube_video_url
+    process:
+      value: value
+    revision_id: revision_id
   temp_bundle_type:
     plugin: static_map
     source: bundle
     map:
       # varies
-      text_text: text_text
-      text_image: text_image
-    default_value: text_text
+      file: file
+      image: image
+      images_collection: images_collection
+      text: text
+      text_wrapped_image: text_wrapped_image
+      video: video
+    default_value: text
   type: '@temp_bundle_type'
 destination:
   plugin: 'entity_reference_revisions:paragraph'
-  # default_bundle: text_text
+  # default_bundle: text
 migration_dependencies:
   required: {}
   optional: {}
