@@ -230,7 +230,7 @@ a.button{
   margin: 4px 0 0 0 !important;
   padding: 20px 0;
   position: relative;
-} 
+}
 .border-style{
   border: 1px dashed #999;
 }
@@ -243,7 +243,7 @@ a.button{
   background: inherit;
 }
 h3:hover > .nd-visualshortcodes-settings-links{
-  box-shadow: 0 0 10px 10px #858585;  
+  box-shadow: 0 0 10px 10px #858585;
 }
 h3:hover > .nd-visualshortcodes-settings-links,
 .nd_visualshortcodes:hover .nd-visualshortcodes-main-add{
@@ -308,7 +308,7 @@ body.dragging, body.dragging * {
   display: none;
 }
 
-/* Add Shortcode Form */  
+/* Add Shortcode Form */
 .nd_visualshortcodes_enabled_list a{
   margin: 0 7px 10px 8px;
   width: 176px;
@@ -551,7 +551,8 @@ ol#pagination {
 }
 .filter-guidelines-shortcodes,
 .filter-guidelines-dynamic_shortcodes,
-.filter-guidelines-shortcode_dynamic{
+.filter-guidelines-shortcode_dynamic,
+.filter-guidelines__item--shortcodes{
   display: none !important;
 }
 

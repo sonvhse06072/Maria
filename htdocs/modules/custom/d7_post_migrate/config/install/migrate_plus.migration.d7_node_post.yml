@@ -67,7 +67,7 @@ process:
       source: field_parts
     - plugin: migration_lookup
       # varies
-      migration: d7_product_paragraph_parts
+      migration: d7_post_paragraph_parts
       no_stub: true
     - plugin: sub_process
       process:

@@ -55,13 +55,37 @@ class PostParagraph extends FieldableEntity {
     }
 
     # varies
-    foreach (array_keys($this->getFields('paragraphs_item', 'text_text')) as $field) {
+    foreach (array_keys($this->getFields('paragraphs_item', 'file')) as $field) {
       $item_id = $row->getSourceProperty('item_id');
       $revision_id = $row->getSourceProperty('revision_id');
       $row->setSourceProperty($field, $this->getFieldValues('paragraphs_item', $field, $item_id, $revision_id));
     }
     # varies
-    foreach (array_keys($this->getFields('paragraphs_item', 'text_image')) as $field) {
+    foreach (array_keys($this->getFields('paragraphs_item', 'image')) as $field) {
+      $item_id = $row->getSourceProperty('item_id');
+      $revision_id = $row->getSourceProperty('revision_id');
+      $row->setSourceProperty($field, $this->getFieldValues('paragraphs_item', $field, $item_id, $revision_id));
+    }
+    # varies
+    foreach (array_keys($this->getFields('paragraphs_item', 'images_collection')) as $field) {
+      $item_id = $row->getSourceProperty('item_id');
+      $revision_id = $row->getSourceProperty('revision_id');
+      $row->setSourceProperty($field, $this->getFieldValues('paragraphs_item', $field, $item_id, $revision_id));
+    }
+    # varies
+    foreach (array_keys($this->getFields('paragraphs_item', 'text')) as $field) {
+      $item_id = $row->getSourceProperty('item_id');
+      $revision_id = $row->getSourceProperty('revision_id');
+      $row->setSourceProperty($field, $this->getFieldValues('paragraphs_item', $field, $item_id, $revision_id));
+    }
+    # varies
+    foreach (array_keys($this->getFields('paragraphs_item', 'text_wrapped_image')) as $field) {
+      $item_id = $row->getSourceProperty('item_id');
+      $revision_id = $row->getSourceProperty('revision_id');
+      $row->setSourceProperty($field, $this->getFieldValues('paragraphs_item', $field, $item_id, $revision_id));
+    }
+    # varies
+    foreach (array_keys($this->getFields('paragraphs_item', 'video')) as $field) {
       $item_id = $row->getSourceProperty('item_id');
       $revision_id = $row->getSourceProperty('revision_id');
       $row->setSourceProperty($field, $this->getFieldValues('paragraphs_item', $field, $item_id, $revision_id));
