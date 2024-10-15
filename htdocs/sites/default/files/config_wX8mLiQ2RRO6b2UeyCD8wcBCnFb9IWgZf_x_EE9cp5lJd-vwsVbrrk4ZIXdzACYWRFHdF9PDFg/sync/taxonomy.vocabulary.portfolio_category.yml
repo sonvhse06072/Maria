@@ -4,5 +4,6 @@ status: true
 dependencies: {  }
 name: 'Portfolio Category'
 vid: portfolio_category
-description: ''
+description: null
 weight: 0
+new_revision: false

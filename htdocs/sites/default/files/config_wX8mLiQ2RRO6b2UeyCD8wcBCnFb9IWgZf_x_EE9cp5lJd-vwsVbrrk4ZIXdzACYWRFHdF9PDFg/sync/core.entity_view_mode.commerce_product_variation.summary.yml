@@ -8,5 +8,6 @@ _core:
   default_config_hash: QL02YVm5CFmG2b5knIj9s_FkzaNGqMWtMsTER6zzCtE
 id: commerce_product_variation.summary
 label: Summary
+description: ''
 targetEntityType: commerce_product_variation
 cache: true

@@ -13,6 +13,42 @@ name: 'Basic HTML'
 format: basic_html
 weight: -8
 filters:
+  dynamicshortcodes:
+    id: dynamicshortcodes
+    provider: nd_visualshortcodes
+    status: false
+    weight: -42
+    settings: {  }
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: true
+    weight: -50
+    settings: {  }
+  entity_embed:
+    id: entity_embed
+    provider: entity_embed
+    status: false
+    weight: -38
+    settings: {  }
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: -47
+    settings: {  }
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: false
+    weight: -44
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: -46
+    settings: {  }
   filter_html:
     id: filter_html
     provider: filter
@@ -22,17 +58,11 @@ filters:
       allowed_html: '<br> <p> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <cite> <dl> <dt> <dd> <span> <a hreflang href> <blockquote cite> <ul type> <ol type start> <strong> <em> <code> <li> <img src alt height width data-entity-uuid data-entity-type data-caption data-align>'
       filter_html_help: false
       filter_html_nofollow: false
-  filter_align:
-    id: filter_align
+  filter_html_escape:
+    id: filter_html_escape
     provider: filter
-    status: true
-    weight: -47
-    settings: {  }
-  filter_caption:
-    id: filter_caption
-    provider: filter
-    status: true
-    weight: -46
+    status: false
+    weight: -45
     settings: {  }
   filter_html_image_secure:
     id: filter_html_image_secure
@@ -40,11 +70,17 @@ filters:
     status: true
     weight: -49
     settings: {  }
-  editor_file_reference:
-    id: editor_file_reference
-    provider: editor
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: false
+    weight: -39
+    settings: {  }
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
     status: true
-    weight: -50
+    weight: -49
     settings: {  }
   filter_url:
     id: filter_url
@@ -96,45 +132,9 @@ filters:
       nd_title: '1'
       nd_video: '1'
       nd_view: '1'
-  entity_embed:
-    id: entity_embed
-    provider: entity_embed
-    status: false
-    weight: -38
-    settings: {  }
-  filter_autop:
-    id: filter_autop
-    provider: filter
-    status: false
-    weight: -44
-    settings: {  }
-  filter_htmlcorrector:
-    id: filter_htmlcorrector
-    provider: filter
-    status: false
-    weight: -39
-    settings: {  }
-  filter_html_escape:
-    id: filter_html_escape
-    provider: filter
-    status: false
-    weight: -45
-    settings: {  }
-  dynamicshortcodes:
-    id: dynamicshortcodes
-    provider: nd_visualshortcodes
-    status: false
-    weight: -42
-    settings: {  }
   shortcode_corrector:
     id: shortcode_corrector
     provider: shortcode
     status: false
     weight: -40
-    settings: {  }
-  filter_image_lazy_load:
-    id: filter_image_lazy_load
-    provider: filter
-    status: true
-    weight: -49
     settings: {  }

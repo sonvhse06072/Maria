@@ -47,6 +47,8 @@
         "drupal/jquery_ui_tabs": "^2.0",
         "drupal/jquery_ui_tooltip": "^2.0",
         "drupal/ludwig": "^2.0",
+        "drupal/migrate_plus": "^6.0",
+        "drupal/migrate_tools": "^6.0",
         "drupal/paragraphs": "^1.18",
         "drupal/pathauto": "^1.8",
         "drupal/recurly": "4.x-dev@dev",

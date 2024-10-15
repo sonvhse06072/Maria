@@ -1,3 +1,4 @@
+langcode: en
 path: 'public://css_editor/rhythm_sub.css'
 enabled: true
 css: ".nav-logo-wrap.local-scroll {\r\n    display: none;\r\n}"
